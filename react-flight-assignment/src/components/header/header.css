@@ -1,0 +1,53 @@
+.App-header {
+    background-image: linear-gradient(to right, #29b0b6, #0c9);
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+	width:100%;
+	z-index:1;
+	position:fixed;
+}
+
+.App-logo {
+    display: flex;
+    max-width: 15%;
+    flex-basis: 15%;
+}
+
+.App-login {
+    display: flex;
+    max-width: 15%;
+    flex-basis: 15%;
+    
+}
+
+.Logo {
+    margin-right: 1rem;
+}
+
+nav a,  .App-login a{
+    font-size: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 1.5rem;
+}
+
+nav a.active {
+    background-color: rgba(93,218,224,0.4);
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+/*.icon_sort-up-arrow{
+  background-image: url(/uparrow.png);
+}
+.icon_sort-down-arrow {
+    background-image: url(/downarrow.png);
+}*/
