@@ -1,0 +1,35 @@
+.App-sidebar {
+    margin-right: 1rem;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1.1rem;
+}
+
+
+.Filter-top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+.Filter-top span:first-child {
+    font-size: 12px;
+}
+
+.Filter-price, .Filter-top {
+padding: 1.1rem 1rem;
+}
+.Price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.Price span {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.input-range__label--min, .input-range__label--max {
+    bottom: -1rem;
+}
